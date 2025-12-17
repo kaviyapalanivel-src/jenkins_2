@@ -1,6 +1,3 @@
 #!/bin/bash
-echo "Build triggered at: $(date)"
-echo "System info:"
-uname -a
-echo "Disk usage:"
-df -h
+echo "Running Python script"
+python3 -c "print('Hello this is a python file, for a jenkins task 2 ')"
